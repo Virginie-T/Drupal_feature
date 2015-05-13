@@ -132,7 +132,7 @@ function to_do_list_views_default_views() {
   $handler->display->display_options['filters']['field_status_value']['id'] = 'field_status_value';
   $handler->display->display_options['filters']['field_status_value']['table'] = 'field_data_field_status';
   $handler->display->display_options['filters']['field_status_value']['field'] = 'field_status_value';
-  $handler->display->display_options['filters']['field_status_value']['operator'] = 'not';
+  $handler->display->display_options['filters']['field_status_value']['operator'] = 'and';
   $handler->display->display_options['filters']['field_status_value']['value'] = array(
     'done ' => 'done ',
   );

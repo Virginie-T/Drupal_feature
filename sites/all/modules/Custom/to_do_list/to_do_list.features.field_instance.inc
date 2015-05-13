@@ -40,7 +40,7 @@ function to_do_list_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_due_date',
     'label' => 'Due date',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
       'default_value' => 'now',
       'default_value2' => 'same',
@@ -49,6 +49,7 @@ function to_do_list_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'date',
       'settings' => array(
         'display_all_day' => 0,
