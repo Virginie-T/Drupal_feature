@@ -15,5 +15,6 @@ features[field_instance][] = node-to_do_task-field_due_date
 features[field_instance][] = node-to_do_task-field_status
 features[node][] = to_do_task
 features[views_view][] = blog
+features[views_view][] = list_of_tasks
 features_exclude[dependencies][ctools] = ctools
 features_exclude[dependencies][options] = options
